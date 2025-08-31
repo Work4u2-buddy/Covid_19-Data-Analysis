@@ -1,0 +1,75 @@
+
+# 🦠 COVID-19 Data Analysis
+
+Exploratory Data Analysis (EDA) of COVID-19 dataset using **Python (Pandas, Matplotlib, Seaborn)**.
+We analyze **patient outcomes, comorbidities, ICU admissions, tobacco use, pregnancy cases, and more**.
+
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+# Clone repo
+git clone https://github.com/your-username/covid19-analysis.git
+
+# Navigate into folder
+cd covid19-analysis
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## ⚡ Usage
+
+Run the Jupyter Notebook:
+
+```bash
+jupyter notebook covid19_analysis.ipynb
+```
+
+Or run the Python script (if provided):
+
+```bash
+python covid19_analysis.py
+```
+
+---
+
+## 📂 Requirements
+
+`requirements.txt` includes:
+
+```
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+```
+
+
+---
+
+## 🔍 Features
+
+* 📊 **Gender & Age Analysis** → Which age groups & genders were most affected
+* 🏥 **Patient Outcomes** → Recovery vs Death analysis
+* ❤️ **Comorbidities** → Impact of diabetes, hypertension, obesity
+* 🛏 **Hospitalization & ICU** → ICU & intubation insights
+* 🤰 **Pregnancy & COVID-19** → Outcomes for pregnant women vs others
+* 🚬 **Lifestyle Factors** → Impact of tobacco use
+* ✅ **Case Classification** → Confirmed vs suspected cases
+
+---
+
+## 🚀 Future Improvements
+
+* 🔮 Add **machine learning models** to predict patient outcomes
+* 🌍 Perform **geospatial analysis** (map of cases by region)
+* 📊 Build an **interactive dashboard** with Streamlit / Plotly Dash
+* 📈 Automate reports with Jupyter → PDF export
+
